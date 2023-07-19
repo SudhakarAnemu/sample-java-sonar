@@ -10,14 +10,6 @@
         <module>person-service</module>
         <module>sonar-plugins</module>
     </modules>
-    <plugin>
-       <groupId>org.apache.maven.plugins</groupId>
-       <artifactId>maven-compiler-plugin</artifactId>
-       <version>3.11.0</version>
-       <configuration>
-          <release>17</release>
-       </configuration>
-    </plugin>
     <properties>
         <java.version>11</java.version>
         <sonar.projectKey>piomin_sample-java-sonar</sonar.projectKey>
